@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Local model and runtime data
+.monday/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated project files
+*.log

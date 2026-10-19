@@ -1,0 +1,19 @@
+google-genai>=1.0.0
+python-dotenv
+faster-whisper
+sounddevice
+numpy
+pynput
+pyautogui
+pyperclip
+mss
+pillow
+pypdf
+pyttsx3; sys_platform != "darwin"
+rembg[cpu]
+opencv-python
+pyobjc-framework-Cocoa; sys_platform == "darwin"
+mlx-whisper; sys_platform == "darwin" and platform_machine == "arm64"
+kokoro-onnx
+soundfile
+pyobjc-framework-WebKit; sys_platform == "darwin"
